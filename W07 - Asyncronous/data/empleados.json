@@ -1,0 +1,34 @@
+[
+     {
+         "isbn": "9780451524935",
+         "titulo": "1984",
+         "autor": "George Orwell",
+         "genero": "Ciencia ficción",
+         "anioPublicacion": 1949,
+         "paginas": 328
+     },
+     {
+         "isbn": "9780061120084",
+         "titulo": "Matar un ruiseñor",
+         "autor": "Harper Lee",
+         "genero": "Novela",
+         "anioPublicacion": 1960,
+         "paginas": 324
+     },
+     {
+         "isbn": "9780547928227",
+         "titulo": "El Señor de los Anillos",
+         "autor": "J.R.R. Tolkien",
+         "genero": "Fantasía",
+         "anioPublicacion": 1954,
+         "paginas": 1178
+     },
+     {
+         "isbn": "9780307474278",
+         "titulo": "Cien años de soledad",
+         "autor": "Gabriel García Márquez",
+         "genero": "Realismo mágico",
+         "anioPublicacion": 1967,
+         "paginas": 417
+     }
+ ];
