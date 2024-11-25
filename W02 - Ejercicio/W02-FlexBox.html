@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contenedor {
+            display: flex; /* Activar Flexbox */
+            justify-content: space-between; /* Espacio entre elementos */
+            align-items: center; /* Alinear verticalmente */
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .elemento {
+            background-color: lightcoral;
+            padding: 20px;
+            margin: 5px;
+            flex: 1; /* Crecer igual en ancho */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Ejemplo de Flexbox</h2>
+
+    <div class="contenedor">
+        <div class="elemento">Elemento 1</div>
+        <div class="elemento">Elemento 2</div>
+        <div class="elemento">Elemento 3</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Bloque e Inline</title>
+    <style>
+        .bloque {
+            background-color: lightblue;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .enlinea {
+            background-color: lightgreen;
+            padding: 5px;
+            margin-right: 5px;
+        }
+        .bloque-inline {
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.enlinea-bloque {
+    display: block;
+    background-color: lightyellow;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+
+    <h2>Ejemplo de elementos en bloque y en línea</h2>
+
+    <!-- Elementos en bloque -->
+    <!-- <div class="bloque">Soy un DIV (bloque)</div>
+    <p class="bloque">Soy un Párrafo (bloque)</p> -->
+
+    <!-- Elementos en línea -->
+    <!-- <span class="enlinea">Soy un SPAN (en línea)</span>
+    <a class="enlinea" href="#">Soy un Enlace (en línea)</a>
+    <strong class="enlinea">Soy un Texto en Negrita (en línea)</strong> -->
+
+    <div class="bloque-inline">
+        <div>
+            <span>Soy un DIV (bloque convertido en inline-block)</span>
+        </div>
+    </div>
+    <div class="bloque-inline">Soy un DIV (bloque convertido en inline-block)</div> 
+    <a class="enlinea-bloque" href="#">Soy un Enlace (en línea convertido en bloque)</a>
+    <a class="enlinea-bloque" href="#">Soy un Enlace (en línea convertido en bloque)</a>
+</body>
+</html>

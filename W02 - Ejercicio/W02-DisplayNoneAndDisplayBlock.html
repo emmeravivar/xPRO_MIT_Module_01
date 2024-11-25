@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contenedor {
+            display: flex; /* Activar Flexbox */
+            justify-content: space-between; /* Espacio entre elementos */
+            align-items: center; /* Alinear verticalmente */
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .elemento1 {
+            background-color: lightcoral;
+            padding: 20px;
+            margin: 5px;
+            flex: 1; /* Crecer igual en ancho */
+            text-align: center;
+        }
+        .elemento2 {
+            background-color: lightcoral;
+            padding: 20px;
+            margin: 5px;
+            flex: 1; /* Crecer igual en ancho */
+            text-align: center;
+        }
+        .elemento3 {
+            background-color: rgb(232, 232, 232);
+            display: block;
+            padding: 20px;
+            margin: 5px;
+            flex: 1; /* Crecer igual en ancho */
+            text-align: center;
+        }
+        .elemento4 {
+            background-color: rgb(232, 232, 232);
+            display: none;
+            padding: 20px;
+            margin: 5px;
+            flex: 1; /* Crecer igual en ancho */
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Ejemplo de Display None</h2>
+
+    <div class="contenedor">
+        <div class="elemento1">Elemento 1</div>
+        <div class="elemento2">Elemento 2</div>
+        <div class="elemento3">El Aplica None</div>
+    </div>
+
+    <div class="contenedor">
+        <div class="elemento1">Elemento 1</div>
+        <div class="elemento2">Elemento 2</div>
+        <div class="elemento4">El Aplica None</div>
+    </div>
+
+</body>
+</html>

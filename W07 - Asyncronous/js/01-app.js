@@ -30,7 +30,6 @@ function obtenerDatos() {
 }
 
 function mostrarHTML(resultado) {
-    console.log('leyebdoi...');
     const contenido = document.querySelector('#result');
 
     contenido.innerHTML = `
